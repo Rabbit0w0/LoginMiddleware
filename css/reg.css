@@ -1,0 +1,11 @@
+#notice{
+    padding: 5px;
+    font-size: medium;
+    color: black;
+}
+
+#error{
+    padding:5px;
+    font-size: medium;
+    color: red;
+}
