@@ -43,10 +43,10 @@ $code = $_SESSION['code'];
                 <span name="error">未查找到用户</span>
                 <a href="./">[返回]</a>
                 <?php elseif($code==-400): ?>
-                <span name="error">已经注册过了!</span>
-                <a href="./">[返回]</a>
+                <span name="error">该账号已被验证!</span>
+                <a href="/">[返回论坛]</a>
                 <?php elseif($code==200): ?>
-                <span name="notice">已完成注册</span>
+                <span name="notice">已完成验证，系统已自动帮您注册，请前往论坛登录</span>
                 <a href="/">[返回论坛]</a>
                 <?php elseif($code==-500): ?>
                 <span name="notice">验证码</span>
